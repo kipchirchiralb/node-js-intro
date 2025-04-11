@@ -11,6 +11,8 @@ const fsystem = require("fs"); // fs  - file system module ---  node js built in
 
 // fsystem.rmSync("notes.txt");
 
+fsystem.re
+
 for(let studeCount = 1; studeCount < 5000; studeCount++){
     fsystem.writeFileSync(`report${studeCount}.txt`, `This is student number ${studeCount + 1}\n report card \n they have scrored 70% in math \n they have scored 80% in english \n they have scored 90% in science \n they have scored 60% in hindi \n they have scored 50% in history \n they have scored 40% in geography \n they have scored 30% in computer \n they have scored 20% in physical education`)
 }
